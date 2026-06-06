@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>企业 AI 应用指南 — 从个人到商业的全面转型</title>
 <style>
 /* html-ppt :: shared webfonts */
@@ -327,507 +327,551 @@ h4,.h4{font-size:22px;line-height:1.3;font-weight:600;margin:0 0 8px}
 }
 
 </style>
-<style>
-  /* Global font size scale-up for presentation readability */
-  .slide { font-size: 1.15rem; }
-  .slide h1 { font-size: 3.5rem !important; }
-  .slide h2 { font-size: 2.6rem !important; }
-  .slide h3 { font-size: 1.35rem !important; }
-  .slide p { font-size: 1.1rem !important; line-height: 1.6 !important; }
-  .slide li { font-size: 1.05rem !important; line-height: 1.7 !important; }
-  .slide strong { font-size: 1.05em; }
-  .slide .notes { font-size: inherit; }
-  /* Keep cover slide proportions */
-  .slide:first-child h1 { font-size: 4rem !important; }
-  .slide:first-child p:first-of-type { font-size: 1.1rem !important; }
-</style>
 </head>
 <body>
 
+<div class="deck-header">
+  <span>企业 AI 应用指南</span>
+  <span>AI炼金术 · 徐文浩 &amp; 任鑫</span>
+</div>
+
+<div class="deck-footer">
+  <span class="slide-number" data-current="1" data-total="21"></span>
+  <span>guxiaojun60-cmyk.github.io/enterprise-ai-guide</span>
+</div>
+
+<div class="progress-bar"><span></span></div>
+
 <div class="deck">
 
-<!-- ====== SLIDE 1: 封面 ====== -->
-<section class="slide is-active" style="display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;gap:2rem;">
-  <div data-anim="fade-up">
-    <p style="font-size:0.9rem;letter-spacing:0.3em;text-transform:uppercase;color:var(--text-3);margin-bottom:0.5rem;">企业培训课程</p>
-    <h1 style="font-size:3rem;font-weight:800;line-height:1.2;margin:0;">企业 AI 应用指南</h1>
-    <p style="font-size:1.4rem;color:var(--text-2);margin-top:1rem;">从个人到商业的全面转型</p>
+<!-- ====== S1: COVER ====== -->
+<section class="slide is-active center">
+  <div data-anim="blur-in">
+    <p class="eyebrow mb-m">企业培训课程</p>
+    <h1 class="title gradient-text" style="font-size:86px;">企业 AI 应用指南</h1>
+    <p class="lede mt-l" style="max-width:48ch;">从个人到商业的全面转型</p>
   </div>
-  <div data-anim="fade-up" style="margin-top:2rem;">
-    <p style="color:var(--text-3);font-size:0.85rem;">基于「AI炼金术」播客 · 徐文浩 & 任鑫</p>
-    <p style="color:var(--text-3);font-size:0.85rem;">课程时长：约 60 分钟 · 共 4 部分</p>
+  <div data-anim="fade-up" class="mt-l">
+    <p class="dim2" style="font-size:14px;">基于「AI炼金术」播客 · 徐文浩 &amp; 任鑫</p>
+    <p class="dim2" style="font-size:14px;">课程时长：约 60 分钟 · 共 4 部分</p>
   </div>
   <div class="notes">
-欢迎来到《企业 AI 应用指南》。这门课综合了「AI炼金术」播客中徐文浩和任鑫两位老师的两期重磅内容——AI转型四步法的上下篇。总时长超过 3 小时的精华，浓缩为约 60 分钟的培训课程。我们会从个人、组织、产品、商业四个维度，系统地讲解企业如何拥抱 AI。
+欢迎来到《企业 AI 应用指南》。这门课综合了「AI炼金术」播客中徐文浩和任鑫两位老师的两期重磅内容——AI转型四步法的上下篇。总时长超过 3 小时的精华，浓缩为约 60 分钟的培训课程。我们从个人、组织、产品、商业四个维度，系统地讲解企业如何拥抱 AI。
   </div>
 </section>
 
-<!-- ====== SLIDE 2: 课程大纲 ====== -->
-<section class="slide" style="display:flex;flex-direction:column;justify-content:center;padding:3rem 4rem;">
-  <h2 data-anim="fade-up" style="font-size:2rem;margin-bottom:2.5rem;">📋 课程大纲</h2>
-  <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;">
-    <div data-anim="fade-up" style="border-left:4px solid var(--accent);padding:1.2rem 1.5rem;background:var(--bg-2);border-radius:0 8px 8px 0;">
-      <h3 style="font-size:1.1rem;margin:0 0 0.5rem;">第一部分 · 个人转型</h3>
-      <p style="color:var(--text-2);font-size:0.85rem;margin:0;">破除虚假使用 · 代码大平权 · 思维转变</p>
+<!-- ====== S2: AGENDA ====== -->
+<section class="slide">
+  <p class="kicker">课程大纲</p>
+  <h2 class="title">📋 四步转型法</h2>
+  <div class="divider-accent mt-s mb-l"></div>
+  <div class="grid g2">
+    <div data-anim="rise-in" class="card card-accent">
+      <div class="pill pill-accent mb-s">Part 1</div>
+      <h3>个人转型</h3>
+      <p class="dim">破除虚假使用 · 代码大平权 · 思维转变 · 驯化AI心法</p>
     </div>
-    <div data-anim="fade-up" style="border-left:4px solid var(--accent);padding:1.2rem 1.5rem;background:var(--bg-2);border-radius:0 8px 8px 0;">
-      <h3 style="font-size:1.1rem;margin:0 0 0.5rem;">第二部分 · 组织转型</h3>
-      <p style="color:var(--text-2);font-size:0.85rem;margin:0;">AI的反组织属性 · 特种兵小组 · 打破SOP</p>
+    <div data-anim="rise-in" style="animation-delay:.1s" class="card card-accent">
+      <div class="pill pill-accent mb-s">Part 2</div>
+      <h3>组织转型</h3>
+      <p class="dim">AI的反组织属性 · 特种兵小组 · SOP是负债 · IPO任务拆解</p>
     </div>
-    <div data-anim="fade-up" style="border-left:4px solid var(--accent);padding:1.2rem 1.5rem;background:var(--bg-2);border-radius:0 8px 8px 0;">
-      <h3 style="font-size:1.1rem;margin:0 0 0.5rem;">第三部分 · 产品创新</h3>
-      <p style="color:var(--text-2);font-size:0.85rem;margin:0;">用户任务 · 三步法 · 从工具到工作</p>
+    <div data-anim="rise-in" style="animation-delay:.2s" class="card card-accent">
+      <div class="pill pill-accent mb-s">Part 3</div>
+      <h3>产品创新</h3>
+      <p class="dim">用户任务思维 · AI三步法 · 从工具到工作 · 价值重塑</p>
     </div>
-    <div data-anim="fade-up" style="border-left:4px solid var(--accent);padding:1.2rem 1.5rem;background:var(--bg-2);border-radius:0 8px 8px 0;">
-      <h3 style="font-size:1.1rem;margin:0 0 0.5rem;">第四部分 · 商业机会</h3>
-      <p style="color:var(--text-2);font-size:0.85rem;margin:0;">四大方向 · 智能过剩 · 行动路线图</p>
+    <div data-anim="rise-in" style="animation-delay:.3s" class="card card-accent">
+      <div class="pill pill-accent mb-s">Part 4</div>
+      <h3>商业机会</h3>
+      <p class="dim">四大创业方向 · 智能过剩 · 行动路线图</p>
     </div>
   </div>
   <div class="notes">课程分为四个模块。前两部分来自上期播客（117分钟），讲个人和组织如何转型。后两部分来自下期（84分钟），讲产品创新和商业机会。每个模块都配有具体案例和可操作的行动指南。</div>
 </section>
 
-<!-- ====== SLIDE 3: 第一部分标题 ====== -->
-<section class="slide" style="display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;">
-  <div data-anim="fade-up">
-    <p style="font-size:1rem;color:var(--accent);letter-spacing:0.2em;margin-bottom:0.5rem;">PART 1</p>
-    <h1 style="font-size:2.8rem;font-weight:800;margin:0;">个人 AI 转型</h1>
-    <p style="font-size:1.2rem;color:var(--text-2);margin-top:1rem;">从"观众"到"玩家"，从"牛马"到"老板"</p>
+<!-- ====== S3: PART 1 TITLE ====== -->
+<section class="slide center">
+  <div data-anim="blur-in">
+    <p class="eyebrow">Part 1</p>
+    <h1 class="title gradient-text">个人 AI 转型</h1>
+    <p class="lede" style="max-width:36ch;">从"观众"到"玩家"<br>从"牛马"到"老板"</p>
   </div>
   <div class="notes">第一部分聚焦个人层面。核心问题是：作为个体，如何真正用起AI，而不是消费AI资讯。这部分的内容非常实操，直接给方法论。</div>
 </section>
 
-<!-- ====== SLIDE 4: 破除虚假使用 ====== -->
-<section class="slide" style="display:flex;flex-direction:column;justify-content:center;padding:3rem 4rem;">
-  <h2 data-anim="fade-up" style="font-size:2rem;margin-bottom:1.5rem;">🚫 破除"虚假使用"陷阱</h2>
-  <div style="display:grid;grid-template-columns:1fr 1fr;gap:2rem;">
-    <div data-anim="fade-up">
-      <h3 style="color:var(--danger, #d32f2f);font-size:1rem;margin-bottom:1rem;">❌ 这不是用AI</h3>
-      <ul style="list-style:none;padding:0;font-size:0.9rem;">
-        <li style="padding:0.5rem 0;border-bottom:1px solid var(--border);">📰 看AI资讯、刷AI短视频</li>
-        <li style="padding:0.5rem 0;border-bottom:1px solid var(--border);">📻 听AI播客、讨论AI哲学</li>
-        <li style="padding:0.5rem 0;border-bottom:1px solid var(--border);">📚 读AI论文、收藏AI工具</li>
-        <li style="padding:0.5rem 0;">🎓 考证、参加AI讲座</li>
-      </ul>
-      <p style="font-size:0.8rem;color:var(--text-3);margin-top:0.5rem;">这些都是内容消费，不是真正使用</p>
+<!-- ====== S4: FAKE USAGE ====== -->
+<section class="slide">
+  <p class="kicker">核心认知</p>
+  <h2 class="title">🚫 破除"虚假使用"陷阱</h2>
+  <div class="divider-accent mb-l"></div>
+  <div class="grid g2">
+    <div data-anim="fade-up" class="card card-soft">
+      <h3 style="color:var(--bad);">❌ 这不是用 AI</h3>
+      <div class="stack mt-m">
+        <p class="dim">📰 看 AI 资讯、刷短视频</p>
+        <p class="dim">📻 听 AI 播客、讨论哲学</p>
+        <p class="dim">📚 读论文、收藏工具</p>
+        <p class="dim">🎓 考证、参加讲座</p>
+      </div>
+      <p class="dim2 mt-s" style="font-size:13px;">这些都是内容消费，不是真正使用</p>
     </div>
-    <div data-anim="fade-up">
-      <h3 style="color:var(--success, #2e7d32);font-size:1rem;margin-bottom:1rem;">✅ 这才是用AI</h3>
-      <ul style="list-style:none;padding:0;font-size:0.9rem;">
-        <li style="padding:0.5rem 0;border-bottom:1px solid var(--border);">💬 每天和AI对话 <strong>100次以上</strong></li>
-        <li style="padding:0.5rem 0;border-bottom:1px solid var(--border);">🤝 跟AI"吵架"，不断调试提示词</li>
-        <li style="padding:0.5rem 0;border-bottom:1px solid var(--border);">🔧 让AI帮你解决真实工作痛点</li>
-        <li style="padding:0.5rem 0;">📊 把重复性工作外包给AI</li>
-      </ul>
+    <div data-anim="fade-up" class="card card-soft">
+      <h3 style="color:var(--good);">✅ 这才是用 AI</h3>
+      <div class="stack mt-m">
+        <p>💬 每天和 AI 对话 <strong>100次以上</strong></p>
+        <p>🤝 跟 AI"吵架"，不断调试提示词</p>
+        <p>🔧 让 AI 帮你解决真实工作痛点</p>
+        <p>📊 把重复性工作外包给 AI</p>
+      </div>
     </div>
   </div>
-  <div data-anim="fade-up" style="margin-top:1.5rem;padding:1rem 1.5rem;background:var(--bg-2);border-radius:8px;">
-    <p style="margin:0;font-size:1.1rem;">💡 <strong>核心判断标准：</strong>只有你跟AI吵架，遇到真实问题用AI解决时，才叫用AI。</p>
+  <div data-anim="fade-up" class="card card-accent mt-m center">
+    <p class="h4" style="margin:0;">💡 只有你跟 AI 吵架、遇到真实问题用 AI 解决时，才叫用 AI。</p>
   </div>
-  <div class="notes">这是整个课程最重要的前提——大多数人都在"虚假使用"AI。看AI资讯本质上是刷八卦，跟刷娱乐新闻没有区别。真正的体感来自于高强度、高频率的实际使用。两位主播的建议是：每天和AI对话少于100次，根本不配谈转型。重点强调"吵架"这个比喻——调试四五十次提示词是常态。</div>
+  <div class="notes">这是整个课程最重要的前提——大多数人都在"虚假使用"AI。看AI资讯本质上是刷八卦，跟刷娱乐新闻没有区别。真正的体感来自于高强度、高频率的实际使用。两位主播的建议是：每天和AI对话少于100次，根本不配谈转型。</div>
 </section>
 
-<!-- ====== SLIDE 5: 代码大平权 ====== -->
-<section class="slide" style="display:flex;flex-direction:column;justify-content:center;padding:3rem 4rem;">
-  <h2 data-anim="fade-up" style="font-size:2rem;margin-bottom:1.5rem;">💻 2026年最大个人红利：代码大平权</h2>
-  <div data-anim="fade-up" style="margin-bottom:2rem;">
-    <p style="font-size:1.2rem;color:var(--text-2);">编程不再是跟计算机语言打交道，而是<strong>"说人话"</strong></p>
-  </div>
-  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;">
-    <div data-anim="fade-up" style="padding:1.5rem;background:var(--bg-2);border-radius:8px;text-align:center;">
-      <p style="font-size:2rem;margin:0 0 0.5rem;">🎬</p>
-      <h3 style="font-size:1rem;margin:0 0 0.5rem;">文科生的逆袭</h3>
-      <p style="font-size:0.82rem;color:var(--text-2);margin:0;">一行代码没写过，用 Claude Code 搭建自动化视频工作台，爆款短视频批量生产</p>
+<!-- ====== S5: CODE DEMOCRATIZATION ====== -->
+<section class="slide">
+  <p class="kicker">2026 最大红利</p>
+  <h2 class="title">💻 代码大平权</h2>
+  <div class="divider-accent mb-l"></div>
+  <p class="lede mb-l" style="max-width:52ch;">编程不再是跟计算机语言打交道，而是<strong>"说人话"</strong></p>
+  <div class="grid g3">
+    <div data-anim="rise-in" class="card center">
+      <p style="font-size:48px;margin:0 0 12px;">🎬</p>
+      <h4>文科生的逆袭</h4>
+      <p class="dim" style="font-size:14px;">一行代码没写过，用 Claude Code 搭建自动化视频工作台，批量生产爆款短视频</p>
     </div>
-    <div data-anim="fade-up" style="padding:1.5rem;background:var(--bg-2);border-radius:8px;text-align:center;">
-      <p style="font-size:2rem;margin:0 0 0.5rem;">⚡</p>
-      <h3 style="font-size:1rem;margin:0 0 0.5rem;">当场修改软件</h3>
-      <p style="font-size:0.82rem;color:var(--text-2);margin:0;">遇到不爽的软件，直接命令AI当场为你修改底层逻辑</p>
+    <div data-anim="rise-in" style="animation-delay:.1s" class="card center">
+      <p style="font-size:48px;margin:0 0 12px;">⚡</p>
+      <h4>当场修改软件</h4>
+      <p class="dim" style="font-size:14px;">遇到不爽的软件，直接命令 AI 当场为你修改底层逻辑</p>
     </div>
-    <div data-anim="fade-up" style="padding:1.5rem;background:var(--bg-2);border-radius:8px;text-align:center;">
-      <p style="font-size:2rem;margin:0 0 0.5rem;">🔄</p>
-      <h3 style="font-size:1rem;margin:0 0 0.5rem;">可复用可迁移</h3>
-      <p style="font-size:0.82rem;color:var(--text-2);margin:0;">AI写的工作方法可以保存、迭代、跨场景复用</p>
+    <div data-anim="rise-in" style="animation-delay:.2s" class="card center">
+      <p style="font-size:48px;margin:0 0 12px;">🔄</p>
+      <h4>可复用可迁移</h4>
+      <p class="dim" style="font-size:14px;">AI 写的工作方法可以保存、迭代、跨场景复用</p>
     </div>
   </div>
-  <div data-anim="fade-up" style="margin-top:1.5rem;padding:1rem 1.5rem;background:var(--bg-2);border-radius:8px;">
-    <p style="margin:0;font-size:0.9rem;">🛠️ <strong>推荐工具：</strong>Claude Code · Codex CLI · Cursor · 用自然语言描述需求，AI 生成可运行代码</p>
+  <div data-anim="fade-up" class="card card-accent mt-m">
+    <div class="row">
+      <span style="font-size:24px;">🛠️</span>
+      <span class="mono" style="font-size:15px;">Claude Code · Codex CLI · Cursor — 用自然语言描述需求，AI 生成可运行代码</span>
+    </div>
   </div>
-  <div class="notes">2026年最大的个人红利。编程的门槛已经被AI彻底抹平了。强调一个震撼案例：一位完全没有编程背景的文科生，用Claude Code搭建了一整套短视频自动化工作台。这不是未来，这是已经发生的事。关键转变：以前是"我学编程"，现在是"我指挥AI编程"。</div>
+  <div class="notes">2026年最大的个人红利。编程的门槛已经被AI彻底抹平了。强调一个震撼案例：一位完全没有编程背景的文科生，用Claude Code搭建了一整套短视频自动化工作台。这不是未来，这是已经发生的事。</div>
 </section>
 
-<!-- ====== SLIDE 6: 思维转变 ====== -->
-<section class="slide" style="display:flex;flex-direction:column;justify-content:center;padding:3rem 4rem;">
-  <h2 data-anim="fade-up" style="font-size:2rem;margin-bottom:1.5rem;">🧠 思维转变：从"牛马"到"资本家"</h2>
-  <div style="display:grid;grid-template-columns:1fr auto 1fr;gap:1rem;align-items:center;">
-    <div data-anim="fade-up" style="padding:2rem;background:var(--bg-2);border-radius:8px;text-align:center;">
-      <p style="font-size:2rem;margin:0;">🐂</p>
-      <h3 style="font-size:1.1rem;margin:0.5rem 0;">旧思维：牛马心态</h3>
-      <ul style="text-align:left;font-size:0.85rem;padding-left:1.2rem;">
-        <li>我是被消耗的"原材料"</li>
-        <li>死磕执行，拼体力</li>
-        <li>和同事比谁加班多</li>
-        <li>被机器牛马卷死</li>
-      </ul>
+<!-- ====== S6: MINDSET SHIFT ====== -->
+<section class="slide">
+  <p class="kicker">思维转变</p>
+  <h2 class="title">🧠 从"牛马"到"老板"</h2>
+  <div class="divider-accent mb-l"></div>
+  <div class="grid g2">
+    <div data-anim="fade-up" class="card center" style="border:1.5px solid var(--bad);">
+      <p style="font-size:56px;margin:0;">🐂</p>
+      <h3 class="mt-s" style="color:var(--bad);">旧思维：牛马心态</h3>
+      <div class="stack mt-s">
+        <p class="dim">我是被消耗的"原材料"</p>
+        <p class="dim">死磕执行，拼体力</p>
+        <p class="dim">和同事比谁加班多</p>
+        <p class="dim" style="font-size:15px;font-weight:600;">→ 被机器牛马卷死</p>
+      </div>
     </div>
-    <div data-anim="fade-up" style="font-size:2.5rem;font-weight:bold;color:var(--accent);">→</div>
-    <div data-anim="fade-up" style="padding:2rem;background:var(--bg-2);border-radius:8px;text-align:center;">
-      <p style="font-size:2rem;margin:0;">💼</p>
-      <h3 style="font-size:1.1rem;margin:0.5rem 0;">新思维：老板心态</h3>
-      <ul style="text-align:left;font-size:0.85rem;padding-left:1.2rem;">
-        <li>把AI当免费劳动力</li>
-        <li>定义问题，调度资源</li>
-        <li>赚取生产力爆发的差价</li>
-        <li>做"差价商人"</li>
-      </ul>
+    <div data-anim="fade-up" class="card center" style="border:1.5px solid var(--good);">
+      <p style="font-size:56px;margin:0;">💼</p>
+      <h3 class="mt-s" style="color:var(--good);">新思维：老板心态</h3>
+      <div class="stack mt-s">
+        <p class="dim">把 AI 当免费劳动力</p>
+        <p class="dim">定义问题，调度资源</p>
+        <p class="dim">赚取生产力爆发的差价</p>
+        <p style="font-size:15px;font-weight:600;">→ 做"差价商人"</p>
+      </div>
     </div>
   </div>
-  <div data-anim="fade-up" style="margin-top:1.5rem;padding:1rem 1.5rem;background:var(--bg-2);border-radius:8px;">
-    <p style="margin:0;font-size:1.1rem;">💡 <strong>核心转变：</strong>面对无穷无尽的机器算力，你的价值不再是死磕执行，而是<strong>定义问题、争取预算、赚取生产力差价</strong>。</p>
+  <div data-anim="fade-up" class="card card-accent mt-m center">
+    <p class="h4" style="margin:0;">💡 面对无穷机器算力，你的价值不再是死磕执行，而是<strong>定义问题、调度资源、赚取差价</strong>。</p>
   </div>
-  <div class="notes">这是个人转型最核心的认知转变。任鑫和徐文浩反复强调：所有的"牛马"都必须赶紧转变思维。现在有机器牛马了——AI就是免费的、不知疲倦的、可以无限复制的劳动力。继续把自己定位为执行者就是死路一条。新的定位是"老板"：管理和调度AI劳动力，赚取投入产出之间的差价。</div>
+  <div class="notes">个人转型最核心的认知转变。现在有机器牛马了——AI就是免费的、不知疲倦的、可以无限复制的劳动力。继续把自己定位为执行者就是死路一条。新的定位是"老板"：管理和调度AI劳动力。</div>
 </section>
 
-<!-- ====== SLIDE 7: 驯化AI的心法 ====== -->
-<section class="slide" style="display:flex;flex-direction:column;justify-content:center;padding:3rem 4rem;">
-  <h2 data-anim="fade-up" style="font-size:2rem;margin-bottom:1.5rem;">🎯 驯化 AI 的核心心法</h2>
-  <div data-anim="fade-up" style="padding:2rem;background:var(--bg-2);border-radius:8px;text-align:center;margin-bottom:1.5rem;">
-    <p style="font-size:1.4rem;margin:0;">把 AI 当成 <strong style="color:var(--accent);">"领导家刚毕业的名校孩子"</strong></p>
-    <p style="color:var(--text-2);font-size:0.9rem;margin:0.5rem 0 0;">知识渊博，但缺乏公司上下文——需要详尽的"入职培训"</p>
+<!-- ====== S7: TAMING AI ====== -->
+<section class="slide">
+  <p class="kicker">实操心法</p>
+  <h2 class="title">🎯 驯化 AI 的核心心法</h2>
+  <div class="divider-accent mb-l"></div>
+  <div data-anim="zoom-pop" class="card center mb-l" style="background:var(--grad-soft);">
+    <p class="h3" style="margin:0;">把 AI 当成 <strong class="gradient-text">"领导家刚毕业的名校孩子"</strong></p>
+    <p class="dim mt-s">知识渊博，但缺乏公司上下文 — 需要详尽的"入职培训"</p>
   </div>
-  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;">
-    <div data-anim="fade-up" style="padding:1.2rem;border:1px solid var(--border);border-radius:8px;">
-      <p style="font-size:1.5rem;margin:0 0 0.5rem;">📋</p>
-      <h3 style="font-size:0.95rem;margin:0 0 0.3rem;">提供丰富背景</h3>
-      <p style="font-size:0.8rem;color:var(--text-2);margin:0;">扔给它足够的业务上下文，不要只给一句话指令</p>
+  <div class="grid g3">
+    <div data-anim="rise-in" class="card card-soft center">
+      <p style="font-size:40px;margin:0 0 8px;">📋</p>
+      <h4>提供丰富背景</h4>
+      <p class="dim" style="font-size:14px;">扔给它足够的业务上下文，不要只给一句话指令</p>
     </div>
-    <div data-anim="fade-up" style="padding:1.2rem;border:1px solid var(--border);border-radius:8px;">
-      <p style="font-size:1.5rem;margin:0 0 0.5rem;">🔄</p>
-      <h3 style="font-size:0.95rem;margin:0 0 0.3rem;">保持极大耐心</h3>
-      <p style="font-size:0.8rem;color:var(--text-2);margin:0;">改四五十次提示词很正常，不断迭代才是常态</p>
+    <div data-anim="rise-in" style="animation-delay:.1s" class="card card-soft center">
+      <p style="font-size:40px;margin:0 0 8px;">🔄</p>
+      <h4>保持极大耐心</h4>
+      <p class="dim" style="font-size:14px;">改四五十次提示词很正常，不断迭代才是常态</p>
     </div>
-    <div data-anim="fade-up" style="padding:1.2rem;border:1px solid var(--border);border-radius:8px;">
-      <p style="font-size:1.5rem;margin:0 0 0.5rem;">🎯</p>
-      <h3 style="font-size:0.95rem;margin:0 0 0.3rem;">不要指望一次成功</h3>
-      <p style="font-size:0.8rem;color:var(--text-2);margin:0;">AI不是神，它是知识渊博但需要培养的实习生</p>
+    <div data-anim="rise-in" style="animation-delay:.2s" class="card card-soft center">
+      <p style="font-size:40px;margin:0 0 8px;">🎯</p>
+      <h4>不要指望一次成功</h4>
+      <p class="dim" style="font-size:14px;">AI 不是神，它是知识渊博但需要培养的实习生</p>
     </div>
   </div>
-  <div data-anim="fade-up" style="margin-top:1.5rem;padding:1rem 1.5rem;background:var(--bg-2);border-radius:8px;">
-    <p style="margin:0;font-size:0.9rem;">💡 <strong>实操建议：</strong>在公司里宣传"把AI当领导家孩子"这个比喻——它降低了预期，却反而能萃取出远超预期的交付物。</p>
+  <div data-anim="fade-up" class="card card-accent mt-m">
+    <p style="font-size:15px;margin:0;">💡 <strong>实操建议：</strong>在公司里宣传这个比喻 — 它降低了预期，却反而能萃取出远超预期的交付物。</p>
   </div>
-  <div class="notes">这个比喻是整期播客最形象、最实用的心法。AI不是全知全能的神——它像是一个刚从名校毕业、知识渊博但完全不了解你们公司业务的新人。你需要像带新人一样：给背景、给耐心、反复迭代。强烈建议大家在公司内部推广这个比喻，它能有效管理团队对AI的预期。</div>
+  <div class="notes">这个比喻是整期播客最形象、最实用的心法。AI不是全知全能的神——它像是一个刚从名校毕业、知识渊博但完全不了解你们公司业务的新人。你需要像带新人一样：给背景、给耐心、反复迭代。强烈建议大家在公司内部推广这个比喻。</div>
 </section>
 
-<!-- ====== SLIDE 8: 第二部分标题 ====== -->
-<section class="slide" style="display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;">
-  <div data-anim="fade-up">
-    <p style="font-size:1rem;color:var(--accent);letter-spacing:0.2em;margin-bottom:0.5rem;">PART 2</p>
-    <h1 style="font-size:2.8rem;font-weight:800;margin:0;">组织 AI 转型</h1>
-    <p style="font-size:1.2rem;color:var(--text-2);margin-top:1rem;">大部门解体，三人"特种兵"小组崛起</p>
+<!-- ====== S8: PART 2 TITLE ====== -->
+<section class="slide center">
+  <div data-anim="blur-in">
+    <p class="eyebrow">Part 2</p>
+    <h1 class="title gradient-text">组织 AI 转型</h1>
+    <p class="lede" style="max-width:36ch;">大部门解体<br>三人"特种兵"小组崛起</p>
   </div>
   <div class="notes">第二部分进入组织层面。核心洞察非常尖锐：AI天生带有"反组织"属性。大多数公司推行AI流于表面，根本原因在于组织结构和激励机制。</div>
 </section>
 
-<!-- ====== SLIDE 9: AI的反组织属性 ====== -->
-<section class="slide" style="display:flex;flex-direction:column;justify-content:center;padding:3rem 4rem;">
-  <h2 data-anim="fade-up" style="font-size:2rem;margin-bottom:1.5rem;">⚡ AI 天生"反组织"</h2>
-  <div data-anim="fade-up" style="margin-bottom:1.5rem;">
-    <p style="font-size:1.1rem;color:var(--text-2);">为什么大部分公司推行 AI 都流于表面？核心矛盾：</p>
-  </div>
-  <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;">
-    <div data-anim="fade-up" style="padding:1.5rem;background:var(--bg-2);border-radius:8px;">
-      <h3 style="color:var(--danger, #d32f2f);font-size:1rem;margin:0 0 0.8rem;">🔒 结构性死结</h3>
-      <p style="font-size:0.85rem;margin:0;">大组织缺乏<strong>增量利益分配机制</strong>——员工用AI提升效率后，省下来的时间归谁？如果效率提升意味着裁员，员工凭什么革自己的命？</p>
+<!-- ====== S9: ANTI-ORGANIZATION ====== -->
+<section class="slide">
+  <p class="kicker">深层矛盾</p>
+  <h2 class="title">⚡ AI 天生"反组织"</h2>
+  <div class="divider-accent mb-l"></div>
+  <p class="lede mb-l" style="max-width:52ch;">为什么大部分公司推行 AI 都流于表面？</p>
+  <div class="grid g2">
+    <div data-anim="fade-up" class="card" style="border:1.5px solid var(--bad);">
+      <h3 style="color:var(--bad);">🔒 结构性死结</h3>
+      <p class="dim mt-s">大组织缺乏<strong>增量利益分配机制</strong>——员工用 AI 提升效率后，省下来的时间归谁？如果效率提升意味着裁员，员工凭什么革自己的命？</p>
     </div>
-    <div data-anim="fade-up" style="padding:1.5rem;background:var(--bg-2);border-radius:8px;">
-      <h3 style="color:var(--success, #2e7d32);font-size:1rem;margin:0 0 0.8rem;">🔑 破解之道</h3>
-      <p style="font-size:0.85rem;margin:0;">除非有<strong>增量价值</strong>可以分配——开拓新市场、做新业务、切新蛋糕。让AI带来的效率提升变成"做大蛋糕"而非"切旧蛋糕"。</p>
+    <div data-anim="fade-up" class="card" style="border:1.5px solid var(--good);">
+      <h3 style="color:var(--good);">🔑 破解之道</h3>
+      <p class="dim mt-s">除非有<strong>增量价值</strong>可以分配——开拓新市场、做新业务、切新蛋糕。让 AI 带来的效率提升变成"做大蛋糕"而非"切旧蛋糕"。</p>
     </div>
   </div>
-  <div data-anim="fade-up" style="margin-top:1.5rem;padding:1rem 1.5rem;background:var(--bg-2);border-radius:8px;">
-    <p style="margin:0;font-size:1rem;">💡 <strong>关键洞察：</strong>"大部分公司觉得自己的系统、经验是资产，其实大部分只是负债。真正值钱的只有两个：客户的真实问题，和你的渠道。"</p>
+  <div data-anim="fade-up" class="card card-accent mt-m">
+    <p class="h4" style="margin:0;font-style:italic;">"大部分公司觉得自己的系统、经验是资产，其实大部分只是负债。真正值钱的只有两个：客户的真实问题，和你的渠道。"</p>
   </div>
-  <div class="notes">这是组织转型中最容易被忽视的真相。大公司推行AI不是技术问题，是利益分配问题。如果一个员工的效率因AI提升10倍，多出来的时间归谁？如果公司说"那你做更多活"，员工凭什么用AI？必须配套增量激励机制。另一个重要洞察：大多数公司的SOP和历史经验不是资产而是负债——在AI能力面前，传统流程的约束反而限制了效率。</div>
+  <div class="notes">这是组织转型中最容易被忽视的真相。大公司推行AI不是技术问题，是利益分配问题。关键洞察：大多数公司的SOP和历史经验不是资产而是负债——在AI能力面前，传统流程的约束反而限制了效率。</div>
 </section>
 
-<!-- ====== SLIDE 10: 三人特种兵小组 ====== -->
-<section class="slide" style="display:flex;flex-direction:column;justify-content:center;padding:3rem 4rem;">
-  <h2 data-anim="fade-up" style="font-size:2rem;margin-bottom:1.5rem;">🪖 组织终局：三人"特种兵"小组</h2>
-  <div data-anim="fade-up" style="text-align:center;margin-bottom:1.5rem;">
-    <p style="font-size:1.3rem;color:var(--accent);">臃肿大部门终将消亡 → 极度灵活的 3 人创业小团队接管战场</p>
-  </div>
-  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;">
-    <div data-anim="fade-up" style="padding:1.5rem;background:var(--bg-2);border-radius:8px;text-align:center;">
-      <p style="font-size:2.5rem;margin:0;">🎯</p>
-      <p style="font-size:0.9rem;font-weight:700;margin:0.5rem 0;">产品 / 策略</p>
-      <p style="font-size:0.8rem;color:var(--text-2);margin:0;">定义方向，理解客户</p>
+<!-- ====== S10: SPECIAL FORCES ====== -->
+<section class="slide">
+  <p class="kicker">组织终局</p>
+  <h2 class="title">🪖 三人"特种兵"小组</h2>
+  <div class="divider-accent mb-l"></div>
+  <p class="lede center mb-l" style="color:var(--accent);max-width:44ch;">臃肿大部门终将消亡 → 极度灵活的 3 人创业小团队接管战场</p>
+  <div class="grid g3">
+    <div data-anim="rise-in" class="card center">
+      <p style="font-size:56px;margin:0;">🎯</p>
+      <h4 class="mt-s">产品 / 策略</h4>
+      <p class="dim" style="font-size:14px;">定义方向<br>理解客户</p>
     </div>
-    <div data-anim="fade-up" style="padding:1.5rem;background:var(--bg-2);border-radius:8px;text-align:center;">
-      <p style="font-size:2.5rem;margin:0;">💻</p>
-      <p style="font-size:0.9rem;font-weight:700;margin:0.5rem 0;">技术 / 工程</p>
-      <p style="font-size:0.8rem;color:var(--text-2);margin:0;">AI 加持，一人顶十人</p>
+    <div data-anim="rise-in" style="animation-delay:.1s" class="card center">
+      <p style="font-size:56px;margin:0;">💻</p>
+      <h4 class="mt-s">技术 / 工程</h4>
+      <p class="dim" style="font-size:14px;">AI 加持<br>一人顶十人</p>
     </div>
-    <div data-anim="fade-up" style="padding:1.5rem;background:var(--bg-2);border-radius:8px;text-align:center;">
-      <p style="font-size:2.5rem;margin:0;">📣</p>
-      <p style="font-size:0.9rem;font-weight:700;margin:0.5rem 0;">增长 / 运营</p>
-      <p style="font-size:0.8rem;color:var(--text-2);margin:0;">AI 驱动，自动获客</p>
+    <div data-anim="rise-in" style="animation-delay:.2s" class="card center">
+      <p style="font-size:56px;margin:0;">📣</p>
+      <h4 class="mt-s">增长 / 运营</h4>
+      <p class="dim" style="font-size:14px;">AI 驱动<br>自动获客</p>
     </div>
   </div>
-  <div data-anim="fade-up" style="margin-top:1.5rem;padding:1rem 1.5rem;background:var(--bg-2);border-radius:8px;">
-    <p style="margin:0;font-size:0.9rem;">🔄 <strong>工作模式：</strong>配齐核心能力 → 所有执行层面的脏活累活丢给 AI → 专注高价值决策 → 用极低成本撬动大市场</p>
+  <div data-anim="fade-up" class="card card-accent mt-m">
+    <p style="font-size:15px;margin:0;">🔄 <strong>工作模式：</strong>配齐核心能力 → 所有执行层面的脏活累活丢给 AI → 专注高价值决策 → 用极低成本撬动大市场</p>
   </div>
-  <div class="notes">未来的高效组织形态不是更大的部门，而是更小、更精干的团队。三人小组配齐核心能力——产品、技术、增长——然后所有执行工作外包给AI。这就像一个超级杠杆：3个人 + AI = 传统30人的战斗力。大企业要思考的不是"如何让500人用AI"，而是"如何拆成100个3人小组各自用AI打新市场"。</div>
+  <div class="notes">未来的高效组织形态不是更大的部门，而是更小、更精干的团队。三人小组配齐核心能力——产品、技术、增长——然后所有执行工作外包给AI。这就像一个超级杠杆：3个人 + AI = 传统30人的战斗力。</div>
 </section>
 
-<!-- ====== SLIDE 11: SOP是负债 ====== -->
-<section class="slide" style="display:flex;flex-direction:column;justify-content:center;padding:3rem 4rem;">
-  <h2 data-anim="fade-up" style="font-size:2rem;margin-bottom:1.5rem;">📉 颠覆认知：SOP 是负债，不是资产</h2>
-  <div data-anim="fade-up" style="margin-bottom:2rem;">
-    <p style="font-size:1.2rem;">当你拥有 <strong style="color:var(--accent);">1000 个零成本的顶级专家</strong> 时，SOP 就是废纸</p>
-  </div>
-  <div style="display:grid;grid-template-columns:1fr 1fr;gap:2rem;">
-    <div data-anim="fade-up" style="padding:1.5rem;background:var(--bg-2);border-radius:8px;">
-      <h3 style="font-size:1rem;margin:0 0 0.8rem;">📋 不要在旧流程里做填空题</h3>
-      <ul style="font-size:0.85rem;padding-left:1.2rem;">
-        <li style="margin-bottom:0.5rem;">给旧流程打 AI 补丁 = 低效</li>
-        <li style="margin-bottom:0.5rem;">SOP 是为"笨人"设计的规范</li>
-        <li>AI 不需要 SOP，它需要目标</li>
-      </ul>
+<!-- ====== S11: SOP IS LIABILITY ====== -->
+<section class="slide">
+  <p class="kicker">颠覆认知</p>
+  <h2 class="title">📉 SOP 是负债，不是资产</h2>
+  <div class="divider-accent mb-l"></div>
+  <p class="lede mb-l">当你拥有 <strong style="color:var(--accent);">1000 个零成本的顶级专家</strong> 时，SOP 就是废纸</p>
+  <div class="grid g2">
+    <div data-anim="fade-up" class="card card-soft">
+      <h3>📋 不要在旧流程里做填空题</h3>
+      <div class="stack mt-s">
+        <p class="dim">给旧流程打 AI 补丁 = 低效</p>
+        <p class="dim">SOP 是为"笨人"设计的规范</p>
+        <p class="dim">AI 不需要 SOP，它需要目标</p>
+      </div>
     </div>
-    <div data-anim="fade-up" style="padding:1.5rem;background:var(--bg-2);border-radius:8px;">
-      <h3 style="font-size:1rem;margin:0 0 0.8rem;">🚀 用 AI 重新定义商业目的</h3>
-      <ul style="font-size:0.85rem;padding-left:1.2rem;">
-        <li style="margin-bottom:0.5rem;">从被动等待需求 → 主动出击全网拦截</li>
-        <li style="margin-bottom:0.5rem;">成本中心 → 利润中心</li>
-        <li>问自己：如果有1000个免费顶级销售，你会怎么做？</li>
-      </ul>
+    <div data-anim="fade-up" class="card card-soft">
+      <h3>🚀 用 AI 重新定义商业目的</h3>
+      <div class="stack mt-s">
+        <p class="dim">从被动等待需求 → 主动出击全网拦截</p>
+        <p class="dim">成本中心 → 利润中心</p>
+        <p class="dim">问自己：如果有1000个免费顶级销售，你会怎么做？</p>
+      </div>
     </div>
   </div>
-  <div data-anim="fade-up" style="margin-top:1.5rem;padding:1rem 1.5rem;background:var(--bg-2);border-radius:8px;">
-    <p style="margin:0;font-size:1rem;">💡 <strong>案例：Legalist</strong> — 用AI算力从被动放贷转为全网主动出击的"捕猎者"，彻底颠覆传统放贷模式</p>
+  <div data-anim="fade-up" class="card card-accent mt-m">
+    <p style="font-size:15px;margin:0;">💡 <strong>案例：Legalist</strong> — 用 AI 算力从被动放贷转为全网主动出击的"捕猎者"，彻底颠覆传统放贷模式</p>
   </div>
-  <div class="notes">这是播客中最具颠覆性的观点之一。传统管理认为SOP是核心资产，但在AI时代，SOP反而成了负债——它是为能力有限的普通人设计的流程约束。当AI可以提供1000倍的执行能力时，真正该做的不是优化SOP，而是彻底重新定义商业目的。Legalist案例展示了这种思维方式：传统放贷是等客户上门，Legalist用AI全网扫描潜在客户，主动出击。</div>
+  <div class="notes">最具颠覆性的观点。传统管理认为SOP是核心资产，但在AI时代，SOP反而成了负债——它是为能力有限的普通人设计的流程约束。当AI可以提供1000倍的执行能力时，真正该做的不是优化SOP，而是彻底重新定义商业目的。</div>
 </section>
 
-<!-- ====== SLIDE 12: IPO任务拆解法 ====== -->
-<section class="slide" style="display:flex;flex-direction:column;justify-content:center;padding:3rem 4rem;">
-  <h2 data-anim="fade-up" style="font-size:2rem;margin-bottom:1.5rem;">🔧 实操：IPO 任务拆解法</h2>
-  <p data-anim="fade-up" style="font-size:1rem;color:var(--text-2);margin-bottom:1.5rem;">如何把玄学般的工作拆成 AI 能瞬间吞噬的标准化任务？</p>
-  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;">
-    <div data-anim="fade-up" style="padding:1.5rem;background:var(--bg-2);border-radius:8px;text-align:center;">
-      <p style="font-size:2.5rem;margin:0;">📥</p>
-      <h3 style="font-size:1.1rem;margin:0.5rem 0;">I · Input</h3>
-      <p style="font-size:0.85rem;color:var(--text-2);margin:0;">明确输入是什么？数据、文档、需求描述？</p>
+<!-- ====== S12: IPO ====== -->
+<section class="slide">
+  <p class="kicker">实操工具</p>
+  <h2 class="title">🔧 IPO 任务拆解法</h2>
+  <div class="divider-accent mb-l"></div>
+  <p class="lede mb-l">如何把玄学般的工作拆成 AI 能瞬间吞噬的标准化任务？</p>
+  <div class="grid g3">
+    <div data-anim="rise-in" class="card center">
+      <p style="font-size:48px;margin:0;">📥</p>
+      <h3 class="mt-s">I · Input</h3>
+      <p class="dim mt-s" style="font-size:15px;">明确输入是什么？<br>数据、文档、需求描述？</p>
     </div>
-    <div data-anim="fade-up" style="padding:1.5rem;background:var(--bg-2);border-radius:8px;text-align:center;">
-      <p style="font-size:2.5rem;margin:0;">⚙️</p>
-      <h3 style="font-size:1.1rem;margin:0.5rem 0;">P · Process</h3>
-      <p style="font-size:0.85rem;color:var(--text-2);margin:0;">处理步骤是什么？分几步？每步做什么？</p>
+    <div data-anim="rise-in" style="animation-delay:.1s" class="card center">
+      <p style="font-size:48px;margin:0;">⚙️</p>
+      <h3 class="mt-s">P · Process</h3>
+      <p class="dim mt-s" style="font-size:15px;">处理步骤是什么？<br>分几步？每步做什么？</p>
     </div>
-    <div data-anim="fade-up" style="padding:1.5rem;background:var(--bg-2);border-radius:8px;text-align:center;">
-      <p style="font-size:2.5rem;margin:0;">📤</p>
-      <h3 style="font-size:1.1rem;margin:0.5rem 0;">O · Output</h3>
-      <p style="font-size:0.85rem;color:var(--text-2);margin:0;">期望输出什么？格式、标准、验收条件？</p>
+    <div data-anim="rise-in" style="animation-delay:.2s" class="card center">
+      <p style="font-size:48px;margin:0;">📤</p>
+      <h3 class="mt-s">O · Output</h3>
+      <p class="dim mt-s" style="font-size:15px;">期望输出什么？<br>格式、标准、验收条件？</p>
     </div>
   </div>
-  <div data-anim="fade-up" style="margin-top:1.5rem;padding:1rem 1.5rem;background:var(--bg-2);border-radius:8px;">
-    <p style="margin:0;font-size:0.9rem;">💡 <strong>案例：</strong>"写一篇公众号文章" → 拆解为：收集素材(I) → 提炼观点(P) → 生成初稿(P) → 润色修改(P) → 排版发布(O)。每个步骤独立交给AI。</p>
+  <div data-anim="fade-up" class="card card-accent mt-m">
+    <p style="font-size:15px;margin:0;">💡 <strong>案例：</strong>"写一篇公众号文章" → 收集素材(I) → 提炼观点(P) → 生成初稿(P) → 润色修改(P) → 排版发布(O)</p>
   </div>
-  <div class="notes">IPO是播客中非常实操的工具。大多数人对AI的使用停留在"帮我写一篇公众号文章"这种模糊指令上——结果往往是垃圾。正确做法是把工作拆成Input-Process-Output三个环节，每个环节独立、清晰地定义。这样每个子任务都变成AI擅长处理的标准问题。这个方法论可以应用到任何知识工作中。</div>
+  <div class="notes">IPO是播客中非常实操的工具。大多数人对AI的使用停留在模糊指令上——结果往往是垃圾。正确做法是把工作拆成Input-Process-Output三个环节，每个环节独立、清晰地定义。</div>
 </section>
 
-<!-- ====== SLIDE 13: 第三部分标题 ====== -->
-<section class="slide" style="display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;">
-  <div data-anim="fade-up">
-    <p style="font-size:1rem;color:var(--accent);letter-spacing:0.2em;margin-bottom:0.5rem;">PART 3</p>
-    <h1 style="font-size:2.8rem;font-weight:800;margin:0;">产品 AI 创新</h1>
-    <p style="font-size:1.2rem;color:var(--text-2);margin-top:1rem;">别在花上加AI，搞清楚用户在打什么游戏</p>
+<!-- ====== S13: PART 3 TITLE ====== -->
+<section class="slide center">
+  <div data-anim="blur-in">
+    <p class="eyebrow">Part 3</p>
+    <h1 class="title gradient-text">产品 AI 创新</h1>
+    <p class="lede" style="max-width:36ch;">别在花上加 AI<br>搞清楚用户在打什么游戏</p>
   </div>
   <div class="notes">第三部分进入产品层面。来自播客下期，主讲人用超级玛丽的比喻来解释产品创新的核心逻辑：用户要的不是更好的花，是救公主。</div>
 </section>
 
-<!-- ====== SLIDE 14: 别在花上加AI ====== -->
-<section class="slide" style="display:flex;flex-direction:column;justify-content:center;padding:3rem 4rem;">
-  <h2 data-anim="fade-up" style="font-size:2rem;margin-bottom:1.5rem;">🍄 超级玛丽启示录</h2>
-  <div style="display:grid;grid-template-columns:1fr 1fr;gap:2rem;align-items:center;">
-    <div data-anim="fade-up" style="text-align:center;">
-      <p style="font-size:4rem;margin:0;">🌸</p>
-      <p style="font-size:1.1rem;font-weight:700;color:var(--danger, #d32f2f);">❌ 错误做法</p>
-      <p style="font-size:0.9rem;color:var(--text-2);">"怎么在花上加 AI？"<br>智能花、AI花、区块链花…</p>
-      <p style="font-size:0.8rem;color:var(--text-3);">用户根本不想要更好的花！</p>
+<!-- ====== S14: MARIO ====== -->
+<section class="slide">
+  <p class="kicker">产品第一原理</p>
+  <h2 class="title">🍄 超级玛丽启示录</h2>
+  <div class="divider-accent mb-l"></div>
+  <div class="grid g2">
+    <div data-anim="fade-up" class="card center" style="border:1.5px solid var(--bad);">
+      <p style="font-size:72px;margin:0;">🌸</p>
+      <h3 class="mt-s" style="color:var(--bad);">❌ 错误做法</h3>
+      <p class="dim mt-s">"怎么在花上加 AI？"<br>智能花、AI 花、区块链花…</p>
+      <p class="dim2" style="font-size:13px;">用户根本不想要更好的花！</p>
     </div>
-    <div data-anim="fade-up" style="text-align:center;">
-      <p style="font-size:4rem;margin:0;">🏰</p>
-      <p style="font-size:1.1rem;font-weight:700;color:var(--success, #2e7d32);">✅ 正确做法</p>
-      <p style="font-size:0.9rem;color:var(--text-2);">"怎么用 AI 帮用户打怪、<br>帮用户救公主？"</p>
-      <p style="font-size:0.8rem;color:var(--text-3);">花只是手段，救公主才是目的</p>
+    <div data-anim="fade-up" class="card center" style="border:1.5px solid var(--good);">
+      <p style="font-size:72px;margin:0;">🏰</p>
+      <h3 class="mt-s" style="color:var(--good);">✅ 正确做法</h3>
+      <p class="dim mt-s">"怎么用 AI 帮用户打怪、<br>帮用户救公主？"</p>
+      <p class="dim2" style="font-size:13px;">花只是手段，救公主才是目的</p>
     </div>
   </div>
-  <div data-anim="fade-up" style="margin-top:1.5rem;padding:1rem 1.5rem;background:var(--bg-2);border-radius:8px;">
-    <p style="margin:0;font-size:1.1rem;">💡 <strong>核心原则：</strong>不要在功能上加 AI，要在<strong>用户任务</strong>上加 AI。绝大多数人做AI产品的第一步就搞反了。</p>
+  <div data-anim="fade-up" class="card card-accent mt-m center">
+    <p class="h4" style="margin:0;">💡 不要在功能上加 AI，要在<strong>用户任务</strong>上加 AI。绝大多数人做AI产品的第一步就搞反了。</p>
   </div>
-  <div class="notes">播客下期最精彩的比喻。用户买花不是为了花，是为了去救公主（完成一个真实任务）。你的产品只是手段。绝大多数AI产品失败的原因都是在"花"上做文章——加AI功能、加智能推荐——却忽略了用户真正要完成的任务。正确姿势：拆解用户的完整旅程，找到最痛的点，用AI重新设计。</div>
+  <div class="notes">播客下期最精彩的比喻。用户买花不是为了花，是为了去救公主（完成一个真实任务）。绝大多数AI产品失败的原因都是在"花"上做文章——加AI功能、加智能推荐——却忽略了用户真正要完成的任务。</div>
 </section>
 
-<!-- ====== SLIDE 15: AI应用三步法 ====== -->
-<section class="slide" style="display:flex;flex-direction:column;justify-content:center;padding:3rem 4rem;">
-  <h2 data-anim="fade-up" style="font-size:2rem;margin-bottom:2rem;">🔬 AI 应用三步法：拆 → 塑 → 翻</h2>
-  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;">
-    <div data-anim="fade-up" style="padding:1.5rem;background:var(--bg-2);border-radius:8px;">
-      <p style="font-size:2rem;margin:0;">1️⃣</p>
-      <h3 style="font-size:1.1rem;margin:0.5rem 0;">拆：拆解用户旅程</h3>
-      <p style="font-size:0.82rem;color:var(--text-2);margin:0;">从"有问题"到"问题解决"的每一步——<strong>哪里累？哪里烦？哪里容易放弃？</strong>那些点就是AI的切入口。</p>
-      <p style="font-size:0.75rem;color:var(--text-3);margin-top:0.5rem;">案例：求职 → 拆解开搜职位/改简历/投递/面试/谈薪/入职</p>
+<!-- ====== S15: THREE STEPS ====== -->
+<section class="slide">
+  <p class="kicker">产品方法论</p>
+  <h2 class="title">🔬 AI 应用三步法</h2>
+  <div class="divider-accent mb-l"></div>
+  <div class="grid g3">
+    <div data-anim="rise-in" class="card card-accent">
+      <p class="h1" style="margin:0;color:var(--accent);">1</p>
+      <h3 class="mt-s">拆：拆解用户旅程</h3>
+      <p class="dim mt-s" style="font-size:14px;">从"有问题"到"问题解决"的每一步——<strong>哪里累？哪里烦？哪里容易放弃？</strong>那些点就是 AI 的切入口。</p>
+      <p class="dim2 mt-s" style="font-size:12px;">例：求职 → 搜职位/改简历/投递/面试/谈薪/入职</p>
     </div>
-    <div data-anim="fade-up" style="padding:1.5rem;background:var(--bg-2);border-radius:8px;">
-      <p style="font-size:2rem;margin:0;">2️⃣</p>
-      <h3 style="font-size:1.1rem;margin:0.5rem 0;">塑：用AI重塑流程</h3>
-      <p style="font-size:0.82rem;color:var(--text-2);margin:0;">不是给旧流程加补丁，而是<strong>用AI重新设计</strong>整个体验。不是优化光学镜头，而是AI合成你想要的画面。</p>
-      <p style="font-size:0.75rem;color:var(--text-3);margin-top:0.5rem;">案例：面试Copilot实时提词 · 医生AI自动记病历</p>
+    <div data-anim="rise-in" style="animation-delay:.1s" class="card card-accent">
+      <p class="h1" style="margin:0;color:var(--accent);">2</p>
+      <h3 class="mt-s">塑：用 AI 重塑流程</h3>
+      <p class="dim mt-s" style="font-size:14px;">不是给旧流程加补丁，而是<strong>用 AI 重新设计</strong>整个体验。不是优化光学镜头，而是AI合成你想要的画面。</p>
+      <p class="dim2 mt-s" style="font-size:12px;">例：面试 Copilot 实时提词 · 医生 AI 自动记病历</p>
     </div>
-    <div data-anim="fade-up" style="padding:1.5rem;background:var(--bg-2);border-radius:8px;">
-      <p style="font-size:2rem;margin:0;">3️⃣</p>
-      <h3 style="font-size:1.1rem;margin:0.5rem 0;">翻：发挥AI超能力</h3>
-      <p style="font-size:0.82rem;color:var(--text-2);margin:0;">跳出传统思维框架，<strong>发挥AI独特能力</strong>颠覆传统打法。低成本智能替代高成本注意力。</p>
-      <p style="font-size:0.75rem;color:var(--text-3);margin-top:0.5rem;">案例：扫地机器人"看见哪里脏" vs 来回乱扫</p>
+    <div data-anim="rise-in" style="animation-delay:.2s" class="card card-accent">
+      <p class="h1" style="margin:0;color:var(--accent);">3</p>
+      <h3 class="mt-s">翻：发挥 AI 超能力</h3>
+      <p class="dim mt-s" style="font-size:14px;">跳出传统思维框架，发挥 AI 独特能力颠覆传统打法。低成本智能替代高成本注意力。</p>
+      <p class="dim2 mt-s" style="font-size:12px;">例：扫地机器人"看见哪里脏" vs 来回乱扫</p>
     </div>
   </div>
-  <div class="notes">三步法是产品创新的完整方法论。第一步"拆"是最容易被跳过的——大多数人直接跳到"怎么加AI"，而没有先拆解用户旅程。播客中用了搜索引擎和求职网站两个案例完整演示拆解过程。第二步"塑"强调不是打补丁，是重新设计。第三步"翻"是最高境界——用AI的独特能力（无限并行、零边际成本）重新定义产品。</div>
+  <div class="notes">三步法是产品创新的完整方法论。第一步"拆"是最容易被跳过的。第二步"塑"强调不是打补丁，是重新设计。第三步"翻"是最高境界——用AI的独特能力重新定义产品。</div>
 </section>
 
-<!-- ====== SLIDE 16: 从工具到工作 ====== -->
-<section class="slide" style="display:flex;flex-direction:column;justify-content:center;padding:3rem 4rem;">
-  <h2 data-anim="fade-up" style="font-size:2rem;margin-bottom:1.5rem;">🍳 从卖工具 → 卖工作</h2>
-  <div data-anim="fade-up" style="text-align:center;margin-bottom:2rem;">
-    <p style="font-size:1.4rem;">"你卖的不是锅，你卖的是<strong style="color:var(--accent);">厨师</strong>"</p>
-    <p style="font-size:1rem;color:var(--text-2);">一口会自己炒菜的锅 → 市场不是"锅的市场" → 是<strong>整个厨师市场</strong>（大100倍）</p>
+<!-- ====== S16: TOOL TO JOB ====== -->
+<section class="slide">
+  <p class="kicker">商业模式升级</p>
+  <h2 class="title">🍳 从卖工具 → 卖工作</h2>
+  <div class="divider-accent mb-l"></div>
+  <div data-anim="zoom-pop" class="card center mb-l" style="background:var(--grad-soft);">
+    <p class="h2" style="margin:0;">"你卖的不是锅，你卖的是<strong class="gradient-text">厨师</strong>"</p>
+    <p class="dim mt-s">一口会自己炒菜的锅 → 市场不是"锅的市场" → 是<strong>整个厨师市场</strong>（大 100 倍）</p>
   </div>
-  <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;">
-    <div data-anim="fade-up" style="padding:1.5rem;background:var(--bg-2);border-radius:8px;">
-      <h3 style="font-size:0.95rem;margin:0 0 0.8rem;">🔄 思维转变</h3>
-      <ul style="font-size:0.85rem;padding-left:1.2rem;">
-        <li style="margin-bottom:0.5rem;">评估指标要从"工具使用量"变为"最终结果"</li>
-        <li style="margin-bottom:0.5rem;">不是帮用户投简历，是帮用户拿到工作</li>
-        <li>不是处理了多少文件，是多快完成目标</li>
-      </ul>
+  <div class="grid g2">
+    <div data-anim="fade-up" class="card card-soft">
+      <h3>🔄 思维转变</h3>
+      <div class="stack mt-s">
+        <p class="dim">评估指标从"工具使用量"变为"最终结果"</p>
+        <p class="dim">不是帮用户投简历，是帮用户拿到工作</p>
+        <p class="dim">不是处理了多少文件，是多快完成目标</p>
+      </div>
     </div>
-    <div data-anim="fade-up" style="padding:1.5rem;background:var(--bg-2);border-radius:8px;">
-      <h3 style="font-size:0.95rem;margin:0 0 0.8rem;">📊 市场扩大逻辑</h3>
-      <ul style="font-size:0.85rem;padding-left:1.2rem;">
-        <li style="margin-bottom:0.5rem;">工具市场 = 买锅的人</li>
-        <li style="margin-bottom:0.5rem;">工作市场 = 需要炒菜的人（大几十倍）</li>
-        <li>特斯拉卖的不是车，是司机</li>
-      </ul>
+    <div data-anim="fade-up" class="card card-soft">
+      <h3>📊 市场扩大逻辑</h3>
+      <div class="stack mt-s">
+        <p class="dim">工具市场 = 买锅的人</p>
+        <p class="dim">工作市场 = 需要炒菜的人（大几十倍）</p>
+        <p class="dim">特斯拉卖的不是车，是司机</p>
+      </div>
     </div>
   </div>
-  <div class="notes">这是播客中最具商业洞察力的观点。AI让你的产品从"工具"升级为"完成工作的人"。锅的市场很小，但会自己炒菜的锅，它的市场是"所有需要炒菜的人"——大了100倍。评估指标也要跟着变：不是衡量用户用了多少次功能，而是衡量用户得到了什么结果。</div>
+  <div class="notes">最具商业洞察力的观点。AI让你的产品从"工具"升级为"完成工作的人"。锅的市场很小，但会自己炒菜的锅，它的市场是"所有需要炒菜的人"——大了100倍。</div>
 </section>
 
-<!-- ====== SLIDE 17: 第四部分标题 ====== -->
-<section class="slide" style="display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;">
-  <div data-anim="fade-up">
-    <p style="font-size:1rem;color:var(--accent);letter-spacing:0.2em;margin-bottom:0.5rem;">PART 4</p>
-    <h1 style="font-size:2.8rem;font-weight:800;margin:0;">商业 AI 机会</h1>
-    <p style="font-size:1.2rem;color:var(--text-2);margin-top:1rem;">四大 AI 原生创业方向 + 行动指南</p>
+<!-- ====== S17: PART 4 TITLE ====== -->
+<section class="slide center">
+  <div data-anim="blur-in">
+    <p class="eyebrow">Part 4</p>
+    <h1 class="title gradient-text">商业 AI 机会</h1>
+    <p class="lede" style="max-width:36ch;">四大 AI 原生创业方向<br>+ 行动指南</p>
   </div>
   <div class="notes">最后一部分聚焦商业机会。播客给出了四条清晰的AI原生创业路径，每条都有具体案例。</div>
 </section>
 
-<!-- ====== SLIDE 18: 四大方向 ====== -->
-<section class="slide" style="display:flex;flex-direction:column;justify-content:center;padding:3rem 4rem;">
-  <h2 data-anim="fade-up" style="font-size:2rem;margin-bottom:1.5rem;">🧭 四大 AI 原生创业方向</h2>
-  <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.2rem;">
-    <div data-anim="fade-up" style="padding:1.2rem;background:var(--bg-2);border-radius:8px;">
-      <h3 style="font-size:1rem;margin:0 0 0.5rem;">🔓 解锁增量</h3>
-      <p style="font-size:0.82rem;color:var(--text-2);margin:0;">像拼多多一样降门槛，打开全新用户群。AI律师 DoNotPay 接传统律师看不上的180美元小官司。盲人辅助 Be My Eyes 用AI解锁全新用户群。</p>
+<!-- ====== S18: FOUR DIRECTIONS ====== -->
+<section class="slide">
+  <p class="kicker">创业路径</p>
+  <h2 class="title">🧭 四大 AI 原生创业方向</h2>
+  <div class="divider-accent mb-l"></div>
+  <div class="grid g2">
+    <div data-anim="rise-in" class="card card-accent">
+      <div class="pill pill-accent mb-s">方向一</div>
+      <h3>🔓 解锁增量</h3>
+      <p class="dim" style="font-size:14px;">像拼多多一样降门槛，打开全新用户群。AI 律师 DoNotPay 接传统律师看不上的 180 美元小官司。盲人辅助 Be My Eyes 用 AI 解锁全新用户群。</p>
     </div>
-    <div data-anim="fade-up" style="padding:1.2rem;background:var(--bg-2);border-radius:8px;">
-      <h3 style="font-size:1rem;margin:0 0 0.5rem;">📦 套壳占位</h3>
-      <p style="font-size:0.82rem;color:var(--text-2);margin:0;">把成熟技术封装成产品，快速占位。妙鸭相机、Cursor 都是这个路径。关键是预判技术曲线，搭好脚手架等模型升级。</p>
+    <div data-anim="rise-in" style="animation-delay:.1s" class="card card-accent">
+      <div class="pill pill-accent mb-s">方向二</div>
+      <h3>📦 套壳占位</h3>
+      <p class="dim" style="font-size:14px;">把成熟技术封装成产品，快速占位。妙鸭相机、Cursor 都是这个路径。关键是预判技术曲线，搭好脚手架等模型升级。</p>
     </div>
-    <div data-anim="fade-up" style="padding:1.2rem;background:var(--bg-2);border-radius:8px;">
-      <h3 style="font-size:1rem;margin:0 0 0.5rem;">⛏️ 卖水卖铲</h3>
-      <p style="font-size:0.82rem;color:var(--text-2);margin:0;">AI淘金热里卖基础设施。CoreWeave 成立没多久年入35亿美元，数据公司从5亿估值涨到100亿。</p>
+    <div data-anim="rise-in" style="animation-delay:.2s" class="card card-accent">
+      <div class="pill pill-accent mb-s">方向三</div>
+      <h3>⛏️ 卖水卖铲</h3>
+      <p class="dim" style="font-size:14px;">AI 淘金热里卖基础设施。CoreWeave 成立没多久年入 35 亿美元，数据公司从 5 亿估值涨到 100 亿。</p>
     </div>
-    <div data-anim="fade-up" style="padding:1.2rem;background:var(--bg-2);border-radius:8px;">
-      <h3 style="font-size:1rem;margin:0 0 0.5rem;">🌉 铺路修桥</h3>
-      <p style="font-size:0.82rem;color:var(--text-2);margin:0;">帮传统企业用好AI。General Catalyst模式：买公司 → AI改造 → 利润×3 → 估值×9。</p>
+    <div data-anim="rise-in" style="animation-delay:.3s" class="card card-accent">
+      <div class="pill pill-accent mb-s">方向四</div>
+      <h3>🌉 铺路修桥</h3>
+      <p class="dim" style="font-size:14px;">帮传统企业用好 AI。General Catalyst 模式：买公司 → AI 改造 → 利润 ×3 → 估值 ×9。</p>
     </div>
   </div>
-  <div data-anim="fade-up" style="margin-top:1.2rem;padding:1rem 1.5rem;background:var(--bg-2);border-radius:8px;text-align:center;">
-    <p style="margin:0;font-size:1.1rem;">🏴‍☠️ "时代太大浪了，做选择就是一定要做<strong>海盗</strong>，千万不要做海军。"</p>
+  <div data-anim="fade-up" class="card card-accent mt-m center">
+    <p class="h4" style="margin:0;">🏴‍☠️ "时代太大浪了，做选择就是一定要做<strong>海盗</strong>，千万不要做海军。"</p>
   </div>
-  <div class="notes">四条创业路径各有适用场景。解锁增量适合有渠道优势的创业者和企业——找到传统服务覆盖不到的群体。套壳占位适合技术敏感、动作快的团队——关键是要预判模型能力提升的时间点。卖水卖铲适合有资源、有基础设施能力的玩家。铺路修桥适合有行业经验、有客户关系的团队——帮助传统企业落地AI。最后一句金句总结：AI时代要做灵活的海盗，不要做笨重的海军。</div>
+  <div class="notes">四条创业路径各有适用场景。解锁增量适合有渠道优势的团队。套壳占位适合动作快的团队——关键是要预判模型能力提升的时间点。卖水卖铲适合有基础设施能力的玩家。铺路修桥适合有行业经验的团队。</div>
 </section>
 
-<!-- ====== SLIDE 19: 智能过剩时代 ====== -->
-<section class="slide" style="display:flex;flex-direction:column;justify-content:center;padding:3rem 4rem;">
-  <h2 data-anim="fade-up" style="font-size:2rem;margin-bottom:1.5rem;">🌟 智能过剩时代的新思维</h2>
-  <div data-anim="fade-up" style="text-align:center;margin-bottom:2rem;">
-    <p style="font-size:1.4rem;">核心公式：用 <strong style="color:var(--accent);">1000 倍的 token</strong> 解决问题，不用 1000 倍的人</p>
-    <p style="font-size:1rem;color:var(--text-2);">低成本智能 → 大量替代 → 高成本注意力</p>
+<!-- ====== S19: INTELLIGENCE SURPLUS ====== -->
+<section class="slide">
+  <p class="kicker">时代思维</p>
+  <h2 class="title">🌟 智能过剩时代</h2>
+  <div class="divider-accent mb-l"></div>
+  <div data-anim="blur-in" class="card center mb-l" style="background:var(--grad-soft);">
+    <p class="h2" style="margin:0;">用 <strong class="gradient-text">1000 倍的 token</strong> 解决问题<br>不用 1000 倍的人</p>
+    <p class="dim mt-s">低成本智能 → 大量替代 → 高成本注意力</p>
   </div>
-  <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;">
-    <div data-anim="fade-up" style="padding:1.5rem;background:var(--bg-2);border-radius:8px;">
-      <h3 style="font-size:1rem;margin:0 0 0.8rem;">🤖 扫地机器人案例</h3>
-      <p style="font-size:0.85rem;margin:0;">传统方式：随机清扫，来回乱扫，效率低<br><br>AI方式：给它"看见哪里脏"的能力 → 精准清扫 → 效率飞升<br><br>用1000倍的token（AI计算）替代1000倍的人力</p>
+  <div class="grid g2">
+    <div data-anim="fade-up" class="card card-soft">
+      <h3>🤖 扫地机器人</h3>
+      <p class="dim mt-s">传统：随机清扫，来回乱扫，效率低</p>
+      <div class="divider mt-s mb-s"></div>
+      <p>AI：给它"看见哪里脏"的能力 → 精准清扫 → 效率飞升</p>
+      <p class="dim2" style="font-size:13px;">用 1000 倍的 token（计算）替代 1000 倍的人力</p>
     </div>
-    <div data-anim="fade-up" style="padding:1.5rem;background:var(--bg-2);border-radius:8px;">
-      <h3 style="font-size:1rem;margin:0 0 0.8rem;">📚 教育行业案例</h3>
-      <p style="font-size:0.85rem;margin:0;">传统方式：一个老师对30个学生，因材施教不可能<br><br>AI方式：创造虚拟互动环境，每个孩子都有AI私人教师<br><br>低成本智能 → 个性化教育规模化</p>
+    <div data-anim="fade-up" class="card card-soft">
+      <h3>📚 教育行业</h3>
+      <p class="dim mt-s">传统：一个老师对 30 个学生，因材施教不可能</p>
+      <div class="divider mt-s mb-s"></div>
+      <p>AI：创造虚拟互动环境，每个孩子都有 AI 私人教师</p>
+      <p class="dim2" style="font-size:13px;">低成本智能 → 个性化教育规模化</p>
     </div>
   </div>
-  <div class="notes">智能过剩时代的核心洞察：token成本极低且持续下降，而人类注意力成本极高且不可扩展。正确策略是用大量便宜的AI算力替代昂贵的人力。扫地机器人是最直观的例子——不要让机器人"聪明地乱扫"，而是给它感知能力来精准清扫。教育案例同样：AI可以实现真正的因材施教，成本极低。</div>
+  <div class="notes">智能过剩时代的核心洞察：token成本极低且持续下降，而人类注意力成本极高且不可扩展。正确策略是用大量便宜的AI算力替代昂贵的人力。</div>
 </section>
 
-<!-- ====== SLIDE 20: 行动路线图 ====== -->
-<section class="slide" style="display:flex;flex-direction:column;justify-content:center;padding:3rem 4rem;">
-  <h2 data-anim="fade-up" style="font-size:2rem;margin-bottom:2rem;">🗺️ 企业 AI 转型行动路线图</h2>
-  <div style="display:grid;grid-template-columns:1fr;gap:1rem;">
-    <div data-anim="fade-up" style="display:flex;align-items:center;gap:1rem;padding:1rem 1.5rem;background:var(--bg-2);border-radius:8px;">
-      <span style="font-size:1.8rem;min-width:3rem;text-align:center;">👤</span>
-      <div>
-        <strong style="font-size:1rem;">个人层：先让自己变成"AI原生"</strong>
-        <p style="margin:0.2rem 0 0;font-size:0.85rem;color:var(--text-2);">每天用AI对话100次+ · 让AI干真实工作 · 驯化AI像带实习生 · 掌握IPO任务拆解法</p>
+<!-- ====== S20: ROADMAP ====== -->
+<section class="slide">
+  <p class="kicker">行动指南</p>
+  <h2 class="title">🗺️ 企业 AI 转型路线图</h2>
+  <div class="divider-accent mb-l"></div>
+  <div class="stack">
+    <div data-anim="fade-up" class="card card-accent">
+      <div class="row">
+        <span style="font-size:36px;min-width:56px;text-align:center;">👤</span>
+        <div>
+          <h4 style="margin:0;">个人层：先让自己变成"AI 原生"</h4>
+          <p class="dim mt-s" style="font-size:14px;">每天用 AI 对话 100 次+ · 让 AI 干真实工作 · 驯化 AI 像带实习生 · 掌握 IPO 任务拆解法</p>
+        </div>
       </div>
     </div>
-    <div data-anim="fade-up" style="display:flex;align-items:center;gap:1rem;padding:1rem 1.5rem;background:var(--bg-2);border-radius:8px;">
-      <span style="font-size:1.8rem;min-width:3rem;text-align:center;">🏢</span>
-      <div>
-        <strong style="font-size:1rem;">组织层：拆大建小 + 增量激励</strong>
-        <p style="margin:0.2rem 0 0;font-size:0.85rem;color:var(--text-2);">组建3人特种兵小组 · 设计增量价值分配机制 · 抛弃SOP负债 · 用AI开拓新市场</p>
+    <div data-anim="fade-up" class="card card-accent">
+      <div class="row">
+        <span style="font-size:36px;min-width:56px;text-align:center;">🏢</span>
+        <div>
+          <h4 style="margin:0;">组织层：拆大建小 + 增量激励</h4>
+          <p class="dim mt-s" style="font-size:14px;">组建 3 人特种兵小组 · 设计增量价值分配机制 · 抛弃 SOP 负债 · 用 AI 开拓新市场</p>
+        </div>
       </div>
     </div>
-    <div data-anim="fade-up" style="display:flex;align-items:center;gap:1rem;padding:1rem 1.5rem;background:var(--bg-2);border-radius:8px;">
-      <span style="font-size:1.8rem;min-width:3rem;text-align:center;">📱</span>
-      <div>
-        <strong style="font-size:1rem;">产品层：拆→塑→翻三步走</strong>
-        <p style="margin:0.2rem 0 0;font-size:0.85rem;color:var(--text-2);">在用户任务上加AI（非功能）· 重新设计流程（非打补丁）· 从卖工具到卖工作</p>
+    <div data-anim="fade-up" class="card card-accent">
+      <div class="row">
+        <span style="font-size:36px;min-width:56px;text-align:center;">📱</span>
+        <div>
+          <h4 style="margin:0;">产品层：拆 → 塑 → 翻三步走</h4>
+          <p class="dim mt-s" style="font-size:14px;">在用户任务上加 AI（非功能）· 重新设计流程（非打补丁）· 从卖工具到卖工作</p>
+        </div>
       </div>
     </div>
-    <div data-anim="fade-up" style="display:flex;align-items:center;gap:1rem;padding:1rem 1.5rem;background:var(--bg-2);border-radius:8px;">
-      <span style="font-size:1.8rem;min-width:3rem;text-align:center;">🚀</span>
-      <div>
-        <strong style="font-size:1rem;">商业层：四条路径择一深耕</strong>
-        <p style="margin:0.2rem 0 0;font-size:0.85rem;color:var(--text-2);">解锁增量 · 套壳占位 · 卖水卖铲 · 铺路修桥 — 选择匹配自身资源的方向</p>
+    <div data-anim="fade-up" class="card card-accent">
+      <div class="row">
+        <span style="font-size:36px;min-width:56px;text-align:center;">🚀</span>
+        <div>
+          <h4 style="margin:0;">商业层：四条路径择一深耕</h4>
+          <p class="dim mt-s" style="font-size:14px;">解锁增量 · 套壳占位 · 卖水卖铲 · 铺路修桥 — 选择匹配自身资源的方向</p>
+        </div>
       </div>
     </div>
   </div>
-  <div data-anim="fade-up" style="margin-top:1.5rem;text-align:center;">
-    <p style="font-size:1.2rem;font-weight:700;color:var(--accent);">🚀 红利窗口不会等人，现在就是最好的时候。</p>
+  <div data-anim="fade-up" class="center mt-m">
+    <p class="h3 gradient-text" style="margin:0;">🚀 红利窗口不会等人，现在就是最好的时候。</p>
   </div>
-  <div class="notes">最后一页是完整的行动路线图，四个层面各有清晰的行动项。个人层面最重要的是先让自己成为AI原生用户——没有亲身实践，其他都是空谈。组织层面最难的是激励机制，必须先解决增量分配问题。产品层面记住三步法，从用户任务出发。商业层面根据自身资源选择路径。最后强调时机——现在就是最好的窗口期。</div>
+  <div class="notes">最后一页是完整的行动路线图，四个层面各有清晰的行动项。个人层面最重要的是先让自己成为AI原生用户。组织层面最难的是激励机制。产品层面记住三步法。商业层面根据自身资源选择路径。</div>
 </section>
 
-<!-- ====== SLIDE 21: 结束页 ====== -->
-<section class="slide" style="display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;gap:1.5rem;">
-  <div data-anim="fade-up">
-    <h1 style="font-size:2.5rem;font-weight:800;margin:0;">谢谢</h1>
-    <p style="font-size:1.2rem;color:var(--text-2);margin-top:1rem;">立即行动，拥抱 AI</p>
+<!-- ====== S21: END ====== -->
+<section class="slide center">
+  <div data-anim="blur-in">
+    <h1 class="title" style="font-size:80px;">谢谢</h1>
+    <p class="lede mt-l">立即行动，拥抱 AI</p>
   </div>
-  <div data-anim="fade-up" style="margin-top:1rem;">
-    <p style="color:var(--text-3);font-size:0.85rem;">内容来源</p>
-    <p style="color:var(--text-3);font-size:0.8rem;">「AI炼金术」播客 · 徐文浩 & 任鑫</p>
-    <p style="color:var(--text-3);font-size:0.8rem;">小宇宙App 搜索「AI炼金术」订阅完整内容</p>
+  <div class="mt-l">
+    <p class="dim2" style="font-size:14px;">内容来源</p>
+    <p class="dim2" style="font-size:13px;">「AI炼金术」播客 · 徐文浩 &amp; 任鑫</p>
+    <p class="dim2" style="font-size:13px;">小宇宙 App 搜索「AI炼金术」订阅完整内容</p>
   </div>
   <div class="notes">课程到此结束。建议课后作业：1. 今天就和AI对话50次；2. 选一个日常工作，用IPO法拆解后交给AI；3. 在团队内分享"领导家孩子"这个比喻。真正的学习从行动开始。</div>
 </section>
